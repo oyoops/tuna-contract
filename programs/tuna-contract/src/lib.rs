@@ -116,6 +116,7 @@ pub struct UpdFeePctg<'info> {
     #[account(signer)]
     pub admin: AccountInfo<'info>,
 }
+/// CHECK: adm pre-verified as valid auth for adm ops in program.
 #[account]
 pub struct AdmContFeeAccts {
     pub first_fee_account: Pubkey,
