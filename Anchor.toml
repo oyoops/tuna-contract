@@ -11,7 +11,7 @@ tuna_contract = "4FKoWL8LcBxy2RNvUierSC6gX7bsJvTwzvvxVbosmpce"
 url = "https://api.apr.dev"
 
 [provider]
-cluster = "https://api.mainnet.solana.com"
+cluster = "testnet"
 wallet = '/home/tuna.pet/tuna-wallets/dev-keypair.json'
 
 [scripts]
