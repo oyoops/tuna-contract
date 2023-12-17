@@ -11,8 +11,8 @@ tuna_contract = "4FKoWL8LcBxy2RNvUierSC6gX7bsJvTwzvvxVbosmpce"
 url = "https://api.apr.dev"
 
 [provider]
-cluster = "https://api.devnet.solana.com"
-wallet = 'C:/Users/nrsan/OneDrive/Desktop/admin-keypair.json'
+cluster = "https://api.mainnet.solana.com"
+wallet = '/home/tuna.pet/tuna-wallets/dev-keypair.json'
 
 [scripts]
 test = "yarn run ts-mocha -p ./tsconfig.json -t 1000000 tests/**/*.ts"
