@@ -107,6 +107,7 @@ pub struct UpdFeeAccts<'info> {
     #[account(mut)]
     pub adm_cont_fee_accts: Account<'info, AdmContFeeAccts>,
     #[account(signer)]
+    /// CHECK: adm pre-verified as valid auth for adm ops in program.
     pub admin: AccountInfo<'info>,
 }
 #[derive(Accounts)]
@@ -114,6 +115,7 @@ pub struct UpdFeePctg<'info> {
     #[account(mut)]
     pub adm_cont_fee_accts: Account<'info, AdmContFeeAccts>,
     #[account(signer)]
+    /// CHECK: to burn.
     pub admin: AccountInfo<'info>,
 }
 
