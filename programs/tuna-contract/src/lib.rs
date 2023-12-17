@@ -69,8 +69,10 @@ pub struct TransferWithFee<'info> {
     pub token_program: Program<'info, anchor_spl::token::Token>,
     #[account(mut)]
     pub adm_cont_fee_accts: Account<'info, AdmContFeeAccts>,
+    /// CHECK: manual. `first_fee_account` already valid SPL tkn acct in program logic
     #[account(mut)]
     pub first_fee_account: AccountInfo<'info>,
+    /// CHECK: manual. `second_fee_account` already valid SPL tkn acct in program logic
     #[account(mut)]
     pub second_fee_account: AccountInfo<'info>,
 }
