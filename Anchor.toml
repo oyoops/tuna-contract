@@ -7,6 +7,11 @@ skip-lint = false
 [programs.localnet]
 tuna_contract = "4FKoWL8LcBxy2RNvUierSC6gX7bsJvTwzvvxVbosmpce"
 
+[programs.testnet]
+tuna_contract = "BWh9JaJ7PkPCdTuVE2Fe7niB655k7koU9vC8URt35MR9"
+[programs]
+tuna_contract = "BWh9JaJ7PkPCdTuVE2Fe7niB655k7koU9vC8URt35MR9"
+
 [registry]
 url = "https://api.apr.dev"
 
