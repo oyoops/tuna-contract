@@ -8,10 +8,10 @@ skip-lint = false
 tuna_contract = "4FKoWL8LcBxy2RNvUierSC6gX7bsJvTwzvvxVbosmpce"
 
 [programs.testnet]
-tuna_contract = "BWh9JaJ7PkPCdTuVE2Fe7niB655k7koU9vC8URt35MR9"
+tuna_contract = "29kaGwEBDuanoFd3zJNCK5uuxNsSFRE7HjK2Kmr34wGJ"
 
 [programs.mainnet]
-tuna_contract = "BWh9JaJ7PkPCdTuVE2Fe7niB655k7koU9vC8URt35MR9"
+tuna_contract = "29kaGwEBDuanoFd3zJNCK5uuxNsSFRE7HjK2Kmr34wGJ"
 
 [registry]
 url = "https://api.apr.dev"
