@@ -1,6 +1,6 @@
 use anchor_lang::prelude::*;
 use anchor_spl::token::{self, TokenAccount, Transfer};
-declare_id!("BWh9JaJ7PkPCdTuVE2Fe7niB655k7koU9vC8URt35MR9");
+declare_id!("29kaGwEBDuanoFd3zJNCK5uuxNsSFRE7HjK2Kmr34wGJ");
 
 #[program]
 pub mod tuna_fee_contract {
