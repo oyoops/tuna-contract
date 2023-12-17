@@ -17,7 +17,7 @@ url = "https://api.apr.dev"
 
 [provider]
 cluster = "testnet"
-wallet = '/home/tuna.pet/tuna-wallets/contract-keypair.json'
+wallet = '/home/tuna.pet/tuna-wallets/dev-keypair.json'
 
 [scripts]
 test = "yarn run ts-mocha -p ./tsconfig.json -t 1000000 tests/**/*.ts"
